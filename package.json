@@ -11,7 +11,7 @@
     "url": "https://github.com/raghunat"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node node_modules/mocha/bin/mocha test --recursive"
   },
   "files": [
     "app"
@@ -25,6 +25,7 @@
     "yosay": "^1.0.2"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
   }
 }
